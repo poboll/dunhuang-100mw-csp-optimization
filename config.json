@@ -1,0 +1,130 @@
+{
+  "plant": {
+    "name": "首航敦煌100MW熔盐塔式光热电站",
+    "location": {
+      "latitude": 40.063,
+      "longitude": 94.426,
+      "elevation": 1267,
+      "timezone": "Asia/Shanghai"
+    },
+    "tower": {
+      "position": [0, 0],
+      "height": 263,
+      "receiver_diameter": 12.6,
+      "receiver_height": 18.67
+    },
+    "field": {
+      "bounds": [-800, 800, -800, 800],
+      "exclusion_zones": [
+        {"type": "circle", "center": [0, 0], "radius": 100, "description": "塔区"}
+      ]
+    },
+    "heliostats": {
+      "count": 1000,
+      "mirror_area": 115.7,
+      "width": 12.0,
+      "height": 9.64,
+      "focal_length": 1000,
+      "reflectivity": 0.88,
+      "tracking_error": 0.63,
+      "mirror_error": 1.53
+    },
+    "performance": {
+      "rated_power": 100,
+      "storage_capacity": 1100,
+      "storage_hours": 11,
+      "design_dni": 950,
+      "design_efficiency": 0.42
+    }
+  },
+  "optimization": {
+    "algorithm": "H-MOWOA-ABC",
+    "population_size": 50,
+    "max_generations": 100,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.1,
+    "elite_ratio": 0.1,
+    "convergence_tolerance": 1e-6,
+    "max_stagnation_generations": 20
+  },
+  "objectives": {
+    "annual_energy": {
+      "type": "maximize",
+      "weight": 1.0,
+      "description": "年发电量 (MWh)"
+    },
+    "lcoe": {
+      "type": "minimize",
+      "weight": 1.0,
+      "description": "平准化电力成本 ($/MWh)"
+    },
+    "flux_uniformity": {
+      "type": "maximize",
+      "weight": 1.0,
+      "description": "接收器热通量均匀性"
+    }
+  },
+  "constraints": {
+    "minimum_distance": 15.0,
+    "maximum_distance": 1500.0,
+    "blocking_threshold": 0.01,
+    "shading_threshold": 0.01,
+    "spillage_threshold": 0.05
+  },
+  "economic": {
+    "heliostat_cost_per_m2": 120,
+    "land_cost_per_m2": 0.5,
+    "tower_cost": 50000000,
+    "receiver_cost": 30000000,
+    "storage_cost_per_kwh": 25,
+    "power_block_cost_per_kw": 1200,
+    "om_cost_per_year": 2000000,
+    "discount_rate": 0.08,
+    "project_lifetime": 25,
+    "capacity_factor": 0.45
+  },
+  "simulation": {
+    "time_step": 1,
+    "sun_positions_per_day": 24,
+    "representative_days": [
+      {"month": 3, "day": 21, "description": "春分"},
+      {"month": 6, "day": 21, "description": "夏至"},
+      {"month": 9, "day": 21, "description": "秋分"},
+      {"month": 12, "day": 21, "description": "冬至"}
+    ],
+    "weather_file": "data/raw/tmy.1.csv"
+  },
+  "output": {
+    "save_intermediate_results": true,
+    "save_all_layouts": true,
+    "generate_visualizations": true,
+    "export_formats": ["csv", "json", "xlsx"],
+    "figure_dpi": 300,
+    "figure_format": "png"
+  },
+  "dataset": {
+    "title": "敦煌100MW光热电站定日镜场多目标优化数据集",
+    "description": "基于H-MOWOA-ABC混合算法的定日镜场布局优化结果，包含帕累托前沿解、优化历史和详细布局数据",
+    "version": "1.0",
+    "license": "CC-BY 4.0",
+    "keywords": [
+      "concentrated solar power",
+      "heliostat field optimization",
+      "multi-objective optimization",
+      "whale optimization algorithm",
+      "artificial bee colony",
+      "Dunhuang",
+      "renewable energy"
+    ],
+    "authors": [
+      {
+        "name": "[您的姓名]",
+        "affiliation": "[您的机构]",
+        "email": "[您的邮箱]",
+        "orcid": "[您的ORCID]"
+      }
+    ],
+    "funding": "[资助信息]",
+    "related_publications": []
+  }
+}

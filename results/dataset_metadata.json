@@ -1,0 +1,70 @@
+{
+  "dataset_info": {
+    "title": "敦煌100MW光热电站定日镜场多目标优化数据集",
+    "description": "基于H-MOWOA-ABC算法的定日镜场布局优化结果",
+    "version": "1.0",
+    "creation_date": "2025-08-13T12:04:37.289381",
+    "license": "CC-BY 4.0"
+  },
+  "plant_parameters": {
+    "name": "敦煌100MW光热电站 - 测试模式",
+    "location": {
+      "latitude": 40.063,
+      "longitude": 94.426,
+      "elevation": 1267
+    },
+    "tower_position": [
+      0,
+      0
+    ],
+    "tower_height": 263,
+    "field_bounds": [
+      -400,
+      400,
+      -400,
+      400
+    ],
+    "num_heliostats": 100,
+    "heliostat_size": 115.7,
+    "rated_power": 100,
+    "storage_hours": 11
+  },
+  "optimization_parameters": {
+    "population_size": 20,
+    "max_generations": 30,
+    "algorithm": "H-MOWOA-ABC"
+  },
+  "results_summary": {
+    "pareto_front_size": 8,
+    "annual_energy": {
+      "min": 5251.444874761137,
+      "max": 5582.729349308866,
+      "mean": 5399.113844083217,
+      "std": 122.73484741552673
+    },
+    "lcoe": {
+      "min": 6.733286791997386,
+      "max": 8.186072328453236,
+      "mean": 7.496090948368295,
+      "std": 0.4972413817372118
+    },
+    "flux_uniformity": {
+      "min": 0.5977966224920241,
+      "max": 0.6776455468164666,
+      "mean": 0.6421189935946041,
+      "std": 0.028110329348333962
+    },
+    "best_compromise_solution": {
+      "index": 1,
+      "annual_energy": 5291.11879510746,
+      "lcoe": 7.084295029689814,
+      "flux_uniformity": 0.6759850710918678,
+      "score": 1.8573521449597163
+    }
+  },
+  "data_files": {
+    "pareto_front": "pareto_front.csv",
+    "optimization_history": "optimization_history.csv",
+    "optimal_layouts": "optimal_layouts/*.csv"
+  }
+}
