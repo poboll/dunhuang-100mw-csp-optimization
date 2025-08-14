@@ -26,7 +26,7 @@ import rasterio
 from rasterio.mask import mask
 import matplotlib.pyplot as plt
 import numpy as np
-from shapely.geometry import Point
+from shapely.geometry import Point, box
 
 # --- 1. Setup: Define file paths and constants ---
 DNI_RASTER_PATH = 'gee/DNI.tif'
@@ -102,8 +102,10 @@ padding_y = (extent[3] - extent[2]) * 0.1
 ax.set_xlim(extent[0] - padding_x, extent[1] + padding_x)
 ax.set_ylim(extent[2] - padding_y, extent[3] + padding_y)
 
+
+
 # 绘制甘肃省边界
-gansu.boundary.plot(ax=ax, edgecolor='black', linewidth=2)
+gansu.boundary.plot(ax=ax, edgecolor='black', linewidth=1.2)
 
 # Remove grid lines
 ax.grid(False)
@@ -116,7 +118,7 @@ dunhuang.boundary.plot(ax=ax, edgecolor='red', linewidth=2.5)
 dunhuang_center = dunhuang.geometry.centroid.iloc[0]
 ax.annotate('Dunhuang City', 
             xy=(dunhuang_center.x, dunhuang_center.y),
-            xytext=(60, -40), textcoords='offset points',
+            xytext=(80, -60), textcoords='offset points',
             bbox=dict(boxstyle='round,pad=0.3', facecolor='white', alpha=0.9, edgecolor='black', linewidth=0.5),
             arrowprops=dict(arrowstyle='->', connectionstyle='arc3,rad=0.3', color='black', lw=1.5),
             fontsize=18, fontweight='normal', ha='center')
@@ -130,45 +132,92 @@ cbar = fig.colorbar(img, ax=ax, shrink=0.8, aspect=25, pad=0.02)
 cbar.set_label('DNI (kWh/m²/day)', fontsize=10)
 cbar.ax.tick_params(labelsize=9)
 
-# Add scale bar (convert degrees to approximate km) - positioned at coordinates (107, 33)
+# Add scale bar (convert degrees to approximate km) - positioned at coordinates (107, 32.5)
 scale_length_deg = 2.0  # 2 degrees
 scale_length_km = scale_length_deg * 111  # Approximate km per degree (222 km is correct)
 scale_x = 107  # Longitude position
-scale_y = 33   # Latitude position (adjusted down from 34)
+scale_y = 32.5   # Latitude position (moved up slightly)
 ax.plot([scale_x, scale_x + scale_length_deg], [scale_y, scale_y], 'k-', linewidth=2)
 ax.text(scale_x + scale_length_deg/2, scale_y - 0.3, 
         f'{scale_length_km:.0f} km', ha='center', fontsize=9)
 
-# Add north arrow
+# Add enhanced north arrow with thicker lines
 north_x = extent[1] - (extent[1] - extent[0]) * 0.08
-north_y = extent[3] - (extent[3] - extent[2]) * 0.08
-arrow_length = (extent[3] - extent[2]) * 0.025
-ax.arrow(north_x, north_y - arrow_length, 0, arrow_length, 
-         head_width=(extent[1] - extent[0]) * 0.008, head_length=(extent[3] - extent[2]) * 0.008, 
-         fc='black', ec='black', linewidth=1)
-ax.annotate('N', xy=(north_x, north_y + (extent[3] - extent[2]) * 0.01), 
-            fontsize=12, fontweight='bold', ha='center', va='bottom')
+north_y = extent[3] - (extent[3] - extent[2]) * 0.12  # Moved down
+arrow_length = (extent[3] - extent[2]) * 0.035  # Slightly longer arrow
+
+# Draw arrow shaft with thicker line
+ax.plot([north_x, north_x], [north_y - arrow_length, north_y], 'k-', linewidth=3)
+
+# Draw arrow head with thicker lines
+head_width = (extent[1] - extent[0]) * 0.012
+head_length = (extent[3] - extent[2]) * 0.012
+ax.arrow(north_x, north_y - head_length, 0, head_length, 
+         head_width=head_width, head_length=head_length, 
+         fc='black', ec='black', linewidth=2)
+
+# Add 'N' label with enhanced styling
+ax.annotate('N', xy=(north_x, north_y + (extent[3] - extent[2]) * 0.015), 
+            fontsize=14, fontweight='bold', ha='center', va='bottom', color='black')
 
 # --- 4. Inset Map: China with Gansu Province Highlighted ---
-# Create inset map above scale bar, slightly larger size
-axins = fig.add_axes([0.10, 0.15, 0.37, 0.37], facecolor='white')
+# Create inset map above scale bar, slightly longer and with ocean background
+axins = fig.add_axes([0.10, 0.10, 0.42, 0.37])
+axins.patch.set_facecolor('#E6F3FF')  # Light blue for ocean background
 axins.patch.set_edgecolor('black')
 axins.patch.set_linewidth(1.0)
 
-# Plot China map
+# Load world map data
+world_map_path = '/Users/Apple/Downloads/官方主题/data/spatial/ne_110m_admin_0_countries.shp'
+world = gpd.read_file(world_map_path)
+
+# Ensure CRS consistency
+if world.crs != china.crs:
+    world = world.to_crs(china.crs)
+
+# Get China bounds for setting map extent
+china_bounds = china.total_bounds
+padding = (china_bounds[2] - china_bounds[0]) * 0.05  # Minimal padding to maximize China display
+
+# Define the extent for the inset map (slightly larger than China)
+map_extent = [
+    china_bounds[0] - padding,
+    china_bounds[2] + padding,
+    china_bounds[1] - padding,
+    china_bounds[3] + padding
+]
+
+# Clip world data to the map extent
+clip_box = box(map_extent[0], map_extent[2], map_extent[1], map_extent[3])
+world_clipped = world.clip(clip_box)
+
+# Separate China from other countries
+china_from_world = world_clipped[world_clipped['NAME'].isin(['China', 'People\'s Republic of China'])]
+neighboring_countries = world_clipped[~world_clipped['NAME'].isin(['China', 'People\'s Republic of China'])]
+
+# Plot in correct order: ocean background (already set), neighboring countries, China, provinces, Gansu
+
+# 1. Plot neighboring countries with white fill and gray borders
+if not neighboring_countries.empty:
+    neighboring_countries.plot(ax=axins, color='white', edgecolor='gray', linewidth=0.5, alpha=1.0)
+
+# 2. Plot China with light gray fill and black borders
 china.plot(ax=axins, color='lightgray', edgecolor='black', linewidth=0.5)
 
-# Highlight Gansu Province
-gansu.plot(ax=axins, color='red', alpha=0.7, edgecolor='darkred', linewidth=1.0)
+# 3. Plot China's provincial boundaries in black (thinner lines)
+china.boundary.plot(ax=axins, edgecolor='black', linewidth=0.4)
 
-# Set inset map extent and style (no title, no labels for scientific journals)
-china_bounds = china.total_bounds
-padding = (china_bounds[2] - china_bounds[0]) * 0.02
-axins.set_xlim(china_bounds[0] - padding, china_bounds[2] + padding)
-axins.set_ylim(china_bounds[1] - padding, china_bounds[3] + padding)
+# 4. Highlight Gansu Province
+gansu.plot(ax=axins, color='red', alpha=0.7)
+
+# Set inset map extent to fill the entire axes area (no padding to eliminate gap)
+axins.set_xlim(map_extent[0], map_extent[1])
+axins.set_ylim(map_extent[2], map_extent[3])
 axins.set_xticks([])
 axins.set_yticks([])
 
-# --- 5. Save and show ---
-fig.savefig(OUTPUT_FILENAME, dpi=600)
-plt.show()
+# --- 5. Save high-quality image for scientific publication ---
+# Save with high DPI (600) for scientific journal quality
+fig.savefig(OUTPUT_FILENAME, dpi=600, bbox_inches='tight', format='png')
+print(f"图片已保存至: {OUTPUT_FILENAME}")
+# plt.show()  # 注释掉显示，避免阻塞终端
