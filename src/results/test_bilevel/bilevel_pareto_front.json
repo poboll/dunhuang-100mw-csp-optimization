@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "algorithm": "BL-CMO (H-MOWOA-ABC + CMA-ES)",
+    "upper_population_size": 4,
+    "upper_generations": 3,
+    "lower_evaluations": 10,
+    "total_evaluations": 100,
+    "solution_count": 12
+  },
+  "solutions": [
+    {
+      "solution_id": 0,
+      "upper_params": {
+        "helio_az_spacing": 2.0281732566641133,
+        "helio_rad_spacing": 1.5259617952344477
+      },
+      "objectives": {
+        "optical_efficiency": -0.6427846112762489,
+        "total_cost_usd": 259271170.67035502,
+        "peak_flux_kw_m2": 732.3220308836745
+      },
+      "lower_params": {},
+      "lower_fitness": null,
+      "lower_evaluations": 0
+    },
+    {
+      "solution_id": 1,
+      "upper_params": {
+        "helio_az_spacing": 2.6706694884972078,
+        "helio_rad_spacing": 1.6311017050093068
+      },
+      "objectives": {
+        "optical_efficiency": -0.6336535590797767,
+        "total_cost_usd": 316026010.0291858,
+        "peak_flux_kw_m2": 692.5635835119662
+      },
+      "lower_params": {},
+      "lower_fitness": null,
+      "lower_evaluations": 0
+    },
+    {
+      "solution_id": 2,
+      "upper_params": {
+        "helio_az_spacing": 2.685532615638421,
+        "helio_rad_spacing": 1.5815579478719293
+      },
+      "objectives": {
+        "optical_efficiency": -0.6348426092510737,
+        "total_cost_usd": 311129645.36395055,
+        "peak_flux_kw_m2": 695.0629701561054
+      },
+      "lower_params": {},
+      "lower_fitness": null,
+      "lower_evaluations": 0
+    },
+    {
+      "solution_id": 3,
+      "upper_params": {
+        "helio_az_spacing": 2.35543620300505,
+        "helio_rad_spacing": 1.9934802900072146
+      },
+      "objectives": {
+        "optical_efficiency": -0.6290868672396825,
+        "total_cost_usd": 331298204.02769995,
+        "peak_flux_kw_m2": 685.5118909458066
+      },
+      "lower_params": {},
+      "lower_fitness": null,
+      "lower_evaluations": 0
+    },
+    {
+      "solution_id": 4,
+      "upper_params": {
+        "helio_az_spacing": 2.35543620300505,
+        "helio_rad_spacing": 1.9934802900072146
+      },
+      "objectives": {
+        "optical_efficiency": -0.6290868672396825,
+        "total_cost_usd": 331298204.02769995,
+        "peak_flux_kw_m2": 685.5118909458066
+      },
+      "lower_params": {},
+      "lower_fitness": null,
+      "lower_evaluations": 0
+    },
+    {
+      "solution_id": 5,
+      "upper_params": {
+        "helio_az_spacing": 2.8,
+        "helio_rad_spacing": 1.4801429897116372
+      },
+      "objectives": {
+        "optical_efficiency": -0.6355957103086509,
+        "total_cost_usd": 306498016.70366627,
+        "peak_flux_kw_m2": 697.5480074160167
+      },
+      "lower_params": {},
+      "lower_fitness": null,
+      "lower_evaluations": 0
+    },
+    {
+      "solution_id": 6,
+      "upper_params": {
+        "helio_az_spacing": 2.182352014896537,
+        "helio_rad_spacing": 2.1252364538632857
+      },
+      "objectives": {
+        "optical_efficiency": -0.6278899466820321,
+        "total_cost_usd": 328710632.5749051,
+        "peak_flux_kw_m2": 686.6340474083712
+      },
+      "lower_params": {},
+      "lower_fitness": null,
+      "lower_evaluations": 0
+    },
+    {
+      "solution_id": 7,
+      "upper_params": {
+        "helio_az_spacing": 1.9405565762911523,
+        "helio_rad_spacing": 1.2
+      },
+      "objectives": {
+        "optical_efficiency": -0.638811131525823,
+        "total_cost_usd": 224790055.11972222,
+        "peak_flux_kw_m2": 777.5077768892263
+      },
+      "lower_params": {},
+      "lower_fitness": null,
+      "lower_evaluations": 0
+    },
+    {
+      "solution_id": 8,
+      "upper_params": {
+        "helio_az_spacing": 2.35543620300505,
+        "helio_rad_spacing": 1.9934802900072146
+      },
+      "objectives": {
+        "optical_efficiency": -0.6290868672396825,
+        "total_cost_usd": 331298204.02769995,
+        "peak_flux_kw_m2": 685.5118909458066
+      },
+      "lower_params": {},
+      "lower_fitness": null,
+      "lower_evaluations": 0
+    },
+    {
+      "solution_id": 9,
+      "upper_params": {
+        "helio_az_spacing": 1.9405565762911523,
+        "helio_rad_spacing": 1.2
+      },
+      "objectives": {
+        "optical_efficiency": -0.638811131525823,
+        "total_cost_usd": 224790055.11972222,
+        "peak_flux_kw_m2": 777.5077768892263
+      },
+      "lower_params": {},
+      "lower_fitness": null,
+      "lower_evaluations": 0
+    },
+    {
+      "solution_id": 10,
+      "upper_params": {
+        "helio_az_spacing": 1.8,
+        "helio_rad_spacing": 1.2
+      },
+      "objectives": {
+        "optical_efficiency": -0.636,
+        "total_cost_usd": 217200000.0,
+        "peak_flux_kw_m2": 791.7592592592591
+      },
+      "lower_params": {},
+      "lower_fitness": null,
+      "lower_evaluations": 0
+    },
+    {
+      "solution_id": 11,
+      "upper_params": {
+        "helio_az_spacing": 2.182352014896537,
+        "helio_rad_spacing": 1.5777981794464426
+      },
+      "objectives": {
+        "optical_efficiency": -0.6443130949145375,
+        "total_cost_usd": 274948996.62067646,
+        "peak_flux_kw_m2": 718.4277111636871
+      },
+      "lower_params": {},
+      "lower_fitness": null,
+      "lower_evaluations": 0
+    }
+  ]
+}
