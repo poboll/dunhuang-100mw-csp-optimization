@@ -1,0 +1,8 @@
+{
+  "SolarPILOT": {
+    "h_tower": 260.0,
+    "q_design": 670.0,
+    "rec_height": 25.0
+  },
+  "Outputs": {}
+}

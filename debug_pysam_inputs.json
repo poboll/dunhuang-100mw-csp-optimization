@@ -1,0 +1,21 @@
+{
+  "SolarPILOT": {
+    "dens_mirror": 0.85,
+    "dni_des": 950.0,
+    "h_tower": 260.0,
+    "helio_active_fraction": 0.97,
+    "helio_height": 12.2,
+    "helio_optical_error": 0.004,
+    "helio_reflectance": 0.94,
+    "helio_width": 12.2,
+    "land_max": 9.5,
+    "land_min": 0.75,
+    "q_design": 670.0,
+    "rec_absorptance": 0.94,
+    "rec_aspect": 1.2237960339943346,
+    "rec_height": 25.0,
+    "rec_hl_perm2": 30000.0,
+    "receiver_type": 0.0
+  },
+  "Outputs": {}
+}

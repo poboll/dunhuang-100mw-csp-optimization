@@ -1,0 +1,1602 @@
+[
+  {
+    "solution_id": 0,
+    "f1_efficiency": 0.6231259883239526,
+    "f2_cost": 354742978.30247205,
+    "f3_flux": 676.4720855051817,
+    "helio_az_spacing": 2.4502683675734827,
+    "helio_rad_spacing": 2.1289548108192613
+  },
+  {
+    "solution_id": 1,
+    "f1_efficiency": 0.6377047509557651,
+    "f2_cost": 299071932.4899779,
+    "f3_flux": 701.800656775569,
+    "helio_az_spacing": 2.7213093869470626,
+    "helio_rad_spacing": 1.4623020435097904
+  },
+  {
+    "solution_id": 2,
+    "f1_efficiency": 0.6376267086480113,
+    "f2_cost": 288031671.27008426,
+    "f3_flux": 708.8178288381099,
+    "helio_az_spacing": 2.753110761266573,
+    "helio_rad_spacing": 1.356297462444757
+  },
+  {
+    "solution_id": 3,
+    "f1_efficiency": 0.6447007328340483,
+    "f2_cost": 241923712.47592774,
+    "f3_flux": 751.8603810663654,
+    "helio_az_spacing": 1.9384207496325865,
+    "helio_rad_spacing": 1.3977439280465522
+  },
+  {
+    "solution_id": 4,
+    "f1_efficiency": 0.6407864195418692,
+    "f2_cost": 277163670.46926546,
+    "f3_flux": 716.6884280119942,
+    "helio_az_spacing": 2.115594145043227,
+    "helio_rad_spacing": 1.6508487786331814
+  },
+  {
+    "solution_id": 5,
+    "f1_efficiency": 0.6338667756766032,
+    "f2_cost": 315152886.39231515,
+    "f3_flux": 693.0000877955404,
+    "helio_az_spacing": 2.6733346959575397,
+    "helio_rad_spacing": 1.6222176801415342
+  },
+  {
+    "solution_id": 6,
+    "f1_efficiency": 0.6318426360468554,
+    "f2_cost": 320850309.2112346,
+    "f3_flux": 690.2201670742074,
+    "helio_az_spacing": 2.311594426527301,
+    "helio_rad_spacing": 1.9308491807532873
+  },
+  {
+    "solution_id": 7,
+    "f1_efficiency": 0.6279791306879491,
+    "f2_cost": 335567579.2287302,
+    "f3_flux": 683.7192780492619,
+    "helio_az_spacing": 2.3730592845099,
+    "helio_rad_spacing": 2.018656120728429
+  },
+  {
+    "solution_id": 8,
+    "f1_efficiency": 0.6443776406495517,
+    "f2_cost": 245710576.18023914,
+    "f3_flux": 747.1351709706531,
+    "helio_az_spacing": 1.9584782215821135,
+    "helio_rad_spacing": 1.426397459403019
+  },
+  {
+    "solution_id": 9,
+    "f1_efficiency": 0.6400993999516464,
+    "f2_cost": 283542477.4504603,
+    "f3_flux": 711.9420954002196,
+    "helio_az_spacing": 2.145651252115468,
+    "helio_rad_spacing": 1.6937875030220975
+  },
+  {
+    "solution_id": 10,
+    "f1_efficiency": 0.6399243386415683,
+    "f2_cost": 285186448.2849739,
+    "f3_flux": 710.7782626756779,
+    "helio_az_spacing": 2.1533101844313913,
+    "helio_rad_spacing": 1.7047288349019876
+  },
+  {
+    "solution_id": 11,
+    "f1_efficiency": 0.6258974875874765,
+    "f2_cost": 346338503.1393522,
+    "f3_flux": 679.4973335722076,
+    "helio_az_spacing": 2.5737185948434558,
+    "helio_rad_spacing": 1.9542713505218143
+  },
+  {
+    "solution_id": 12,
+    "f1_efficiency": 0.6400452453647486,
+    "f2_cost": 228388415.74769434,
+    "f3_flux": 771.4487456345797,
+    "helio_az_spacing": 1.8643561762573648,
+    "helio_rad_spacing": 1.2919373946533783
+  },
+  {
+    "solution_id": 13,
+    "f1_efficiency": 0.6317377406680579,
+    "f2_cost": 321243472.8108343,
+    "f3_flux": 690.0341381654509,
+    "helio_az_spacing": 2.313263216644535,
+    "helio_rad_spacing": 1.93323316663505
+  },
+  {
+    "solution_id": 14,
+    "f1_efficiency": 0.6397519958588072,
+    "f2_cost": 286812257.02907497,
+    "f3_flux": 709.6498485220218,
+    "helio_az_spacing": 2.1608501811771887,
+    "helio_rad_spacing": 1.7155002588245554
+  },
+  {
+    "solution_id": 15,
+    "f1_efficiency": 0.6396169053786511,
+    "f2_cost": 227178497.38512677,
+    "f3_flux": 773.4406431009919,
+    "helio_az_spacing": 1.8575416764785395,
+    "helio_rad_spacing": 1.2822023949693422
+  },
+  {
+    "solution_id": 16,
+    "f1_efficiency": 0.6441626596403619,
+    "f2_cost": 247504139.68056613,
+    "f3_flux": 744.9951299456906,
+    "helio_az_spacing": 1.9678836407341678,
+    "helio_rad_spacing": 1.4398337724773824
+  },
+  {
+    "solution_id": 17,
+    "f1_efficiency": 0.6328509409065086,
+    "f2_cost": 319293628.5088912,
+    "f3_flux": 690.9639309249004,
+    "helio_az_spacing": 2.6606367613313573,
+    "helio_rad_spacing": 1.6645441288954754
+  },
+  {
+    "solution_id": 18,
+    "f1_efficiency": 0.6221125767783504,
+    "f2_cost": 358843832.5025407,
+    "f3_flux": 675.073241999232,
+    "helio_az_spacing": 2.4663908239807886,
+    "helio_rad_spacing": 2.151986891401127
+  },
+  {
+    "solution_id": 19,
+    "f1_efficiency": 0.6276135645881311,
+    "f2_cost": 336985286.5017342,
+    "f3_flux": 683.1396167838649,
+    "helio_az_spacing": 2.378875108825187,
+    "helio_rad_spacing": 2.026964441178839
+  },
+  {
+    "solution_id": 20,
+    "f1_efficiency": 0.6221125767783504,
+    "f2_cost": 358843832.5025407,
+    "f3_flux": 675.073241999232,
+    "helio_az_spacing": 2.4663908239807886,
+    "helio_rad_spacing": 2.151986891401127
+  },
+  {
+    "solution_id": 21,
+    "f1_efficiency": 0.6447007328340483,
+    "f2_cost": 241923712.47592774,
+    "f3_flux": 751.8603810663654,
+    "helio_az_spacing": 1.9384207496325865,
+    "helio_rad_spacing": 1.3977439280465522
+  },
+  {
+    "solution_id": 22,
+    "f1_efficiency": 0.6396169053786511,
+    "f2_cost": 227178497.38512677,
+    "f3_flux": 773.4406431009919,
+    "helio_az_spacing": 1.8575416764785395,
+    "helio_rad_spacing": 1.2822023949693422
+  },
+  {
+    "solution_id": 23,
+    "f1_efficiency": 0.6407864195418692,
+    "f2_cost": 277163670.46926546,
+    "f3_flux": 716.6884280119942,
+    "helio_az_spacing": 2.115594145043227,
+    "helio_rad_spacing": 1.6508487786331814
+  },
+  {
+    "solution_id": 24,
+    "f1_efficiency": 0.6441626596403619,
+    "f2_cost": 247504139.68056613,
+    "f3_flux": 744.9951299456906,
+    "helio_az_spacing": 1.9678836407341678,
+    "helio_rad_spacing": 1.4398337724773824
+  },
+  {
+    "solution_id": 25,
+    "f1_efficiency": 0.6342913969782399,
+    "f2_cost": 254213228.1587523,
+    "f3_flux": 737.4971313362514,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.65695343405867
+  },
+  {
+    "solution_id": 26,
+    "f1_efficiency": 0.6409410618372817,
+    "f2_cost": 282958166.8765474,
+    "f3_flux": 712.3614085539424,
+    "helio_az_spacing": 2.1608501811771887,
+    "helio_rad_spacing": 1.6758647262087365
+  },
+  {
+    "solution_id": 27,
+    "f1_efficiency": 0.6399560946626133,
+    "f2_cost": 228173949.51782334,
+    "f3_flux": 771.7985738271381,
+    "helio_az_spacing": 1.9045486473448372,
+    "helio_rad_spacing": 1.262170723857218
+  },
+  {
+    "solution_id": 28,
+    "f1_efficiency": 0.618,
+    "f2_cost": 298200000.00000006,
+    "f3_flux": 702.3232323232323,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 29,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 30,
+    "f1_efficiency": 0.6419524902647942,
+    "f2_cost": 233271723.71494427,
+    "f3_flux": 763.8417848052645,
+    "helio_az_spacing": 2.0976245132397087,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 31,
+    "f1_efficiency": 0.6209946326485304,
+    "f2_cost": 362576568.3897748,
+    "f3_flux": 673.8410856289702,
+    "helio_az_spacing": 2.4502683675734827,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 32,
+    "f1_efficiency": 0.6383635178358514,
+    "f2_cost": 281452904.61163133,
+    "f3_flux": 713.4555957417083,
+    "helio_az_spacing": 2.091426280029404,
+    "helio_rad_spacing": 1.7155002588245554
+  },
+  {
+    "solution_id": 33,
+    "f1_efficiency": 0.6298085209475119,
+    "f2_cost": 331435790.08836335,
+    "f3_flux": 685.4529928069759,
+    "helio_az_spacing": 2.6606367613313573,
+    "helio_rad_spacing": 1.7659581275286975
+  },
+  {
+    "solution_id": 34,
+    "f1_efficiency": 0.6292726902559799,
+    "f2_cost": 306533977.0270582,
+    "f3_flux": 697.5282380444061,
+    "helio_az_spacing": 2.0689404925944923,
+    "helio_rad_spacing": 2.003537319863666
+  },
+  {
+    "solution_id": 35,
+    "f1_efficiency": 0.6469907487459544,
+    "f2_cost": 267932539.4876906,
+    "f3_flux": 724.2819015088387,
+    "helio_az_spacing": 2.1955166258072376,
+    "helio_rad_spacing": 1.497319459006343
+  },
+  {
+    "solution_id": 36,
+    "f1_efficiency": 0.6356014623549717,
+    "f2_cost": 306473858.1091186,
+    "f3_flux": 697.5612930087425,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.479951254834275
+  },
+  {
+    "solution_id": 37,
+    "f1_efficiency": 0.6231172238947987,
+    "f2_cost": 352069741.7207464,
+    "f3_flux": 677.4105713144346,
+    "helio_az_spacing": 2.3441388052600645,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 38,
+    "f1_efficiency": 0.6241720935178605,
+    "f2_cost": 352680700.3424986,
+    "f3_flux": 677.1941827227122,
+    "helio_az_spacing": 2.5509486623387163,
+    "helio_rad_spacing": 2.026964441178839
+  },
+  {
+    "solution_id": 39,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 40,
+    "f1_efficiency": 0.6209946326485304,
+    "f2_cost": 362576568.3897748,
+    "f3_flux": 673.8410856289702,
+    "helio_az_spacing": 2.4502683675734827,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 41,
+    "f1_efficiency": 0.618,
+    "f2_cost": 298200000.00000006,
+    "f3_flux": 702.3232323232323,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 42,
+    "f1_efficiency": 0.6469907487459544,
+    "f2_cost": 267932539.4876906,
+    "f3_flux": 724.2819015088387,
+    "helio_az_spacing": 2.1955166258072376,
+    "helio_rad_spacing": 1.497319459006343
+  },
+  {
+    "solution_id": 43,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 44,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 45,
+    "f1_efficiency": 0.618,
+    "f2_cost": 298200000.00000006,
+    "f3_flux": 702.3232323232323,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 46,
+    "f1_efficiency": 0.6392619839581177,
+    "f2_cost": 226189575.38935342,
+    "f3_flux": 775.1024246483377,
+    "helio_az_spacing": 1.8575416764785395,
+    "helio_rad_spacing": 1.2703716809515657
+  },
+  {
+    "solution_id": 47,
+    "f1_efficiency": 0.618,
+    "f2_cost": 298200000.00000006,
+    "f3_flux": 702.3232323232323,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 48,
+    "f1_efficiency": 0.632,
+    "f2_cost": 271200000.0,
+    "f3_flux": 721.4880952380952,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 49,
+    "f1_efficiency": 0.6186039268209179,
+    "f2_cost": 377863507.35214496,
+    "f3_flux": 669.167144457096,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.046535772636071
+  },
+  {
+    "solution_id": 50,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 51,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 52,
+    "f1_efficiency": 0.6350320439128566,
+    "f2_cost": 310256640.1294743,
+    "f3_flux": 695.5221157431613,
+    "helio_az_spacing": 2.696512840801563,
+    "helio_rad_spacing": 1.5679233090370714
+  },
+  {
+    "solution_id": 53,
+    "f1_efficiency": 0.618,
+    "f2_cost": 298200000.00000006,
+    "f3_flux": 702.3232323232323,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 54,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 55,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 56,
+    "f1_efficiency": 0.632,
+    "f2_cost": 271200000.0,
+    "f3_flux": 721.4880952380952,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 57,
+    "f1_efficiency": 0.6200833565764942,
+    "f2_cost": 370649868.7735029,
+    "f3_flux": 671.3016557462557,
+    "helio_az_spacing": 2.6907397999654825,
+    "helio_rad_spacing": 2.07006158080654
+  },
+  {
+    "solution_id": 58,
+    "f1_efficiency": 0.6326374061442757,
+    "f2_cost": 309872600.7395453,
+    "f3_flux": 695.725433398547,
+    "helio_az_spacing": 2.1608501811771887,
+    "helio_rad_spacing": 1.9526532493089408
+  },
+  {
+    "solution_id": 59,
+    "f1_efficiency": 0.6366685260843121,
+    "f2_cost": 303460023.2919244,
+    "f3_flux": 699.2461439654785,
+    "helio_az_spacing": 2.256616472272546,
+    "helio_rad_spacing": 1.8066381490078998
+  },
+  {
+    "solution_id": 60,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 61,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 62,
+    "f1_efficiency": 0.6469907487459544,
+    "f2_cost": 267932539.4876906,
+    "f3_flux": 724.2819015088387,
+    "helio_az_spacing": 2.1955166258072376,
+    "helio_rad_spacing": 1.497319459006343
+  },
+  {
+    "solution_id": 63,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 64,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 65,
+    "f1_efficiency": 0.6209946326485304,
+    "f2_cost": 362576568.3897748,
+    "f3_flux": 673.8410856289702,
+    "helio_az_spacing": 2.4502683675734827,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 66,
+    "f1_efficiency": 0.632,
+    "f2_cost": 271200000.0,
+    "f3_flux": 721.4880952380952,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 67,
+    "f1_efficiency": 0.6488931722409557,
+    "f2_cost": 262090125.32347035,
+    "f3_flux": 729.5976714177825,
+    "helio_az_spacing": 2.254561139546713,
+    "helio_rad_spacing": 1.4005201656036708
+  },
+  {
+    "solution_id": 68,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 69,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 70,
+    "f1_efficiency": 0.6225495033026734,
+    "f2_cost": 285916341.08278185,
+    "f3_flux": 710.2689353874904,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 2.048349889910887
+  },
+  {
+    "solution_id": 71,
+    "f1_efficiency": 0.629394090599544,
+    "f2_cost": 267435955.3812312,
+    "f3_flux": 724.7173403227706,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.8201969800151996
+  },
+  {
+    "solution_id": 72,
+    "f1_efficiency": 0.632,
+    "f2_cost": 271200000.0,
+    "f3_flux": 721.4880952380952,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 73,
+    "f1_efficiency": 0.6230830114196015,
+    "f2_cost": 284475869.1670759,
+    "f3_flux": 711.2784552946953,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 2.0305662860132823
+  },
+  {
+    "solution_id": 74,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 75,
+    "f1_efficiency": 0.6393036301966487,
+    "f2_cost": 226119801.53095156,
+    "f3_flux": 775.2208421434135,
+    "helio_az_spacing": 1.9651815098324361,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 76,
+    "f1_efficiency": 0.632,
+    "f2_cost": 271200000.0,
+    "f3_flux": 721.4880952380952,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 77,
+    "f1_efficiency": 0.6363403300376647,
+    "f2_cost": 265766634.7712319,
+    "f3_flux": 726.2028642906864,
+    "helio_az_spacing": 1.9319864418571109,
+    "helio_rad_spacing": 1.6766466266492537
+  },
+  {
+    "solution_id": 78,
+    "f1_efficiency": 0.618,
+    "f2_cost": 298200000.00000006,
+    "f3_flux": 702.3232323232323,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 79,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 80,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 81,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 82,
+    "f1_efficiency": 0.6488931722409557,
+    "f2_cost": 262090125.32347035,
+    "f3_flux": 729.5976714177825,
+    "helio_az_spacing": 2.254561139546713,
+    "helio_rad_spacing": 1.4005201656036708
+  },
+  {
+    "solution_id": 83,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 84,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 85,
+    "f1_efficiency": 0.6409820016617717,
+    "f2_cost": 230651404.48678336,
+    "f3_flux": 767.8401016571314,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.3660667220590537
+  },
+  {
+    "solution_id": 86,
+    "f1_efficiency": 0.6363639769791395,
+    "f2_cost": 218182737.84367648,
+    "f3_flux": 789.7898420845651,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2121325659713145
+  },
+  {
+    "solution_id": 87,
+    "f1_efficiency": 0.6414736327823348,
+    "f2_cost": 231978808.51230398,
+    "f3_flux": 765.7912439334322,
+    "helio_az_spacing": 2.07368163911674,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 88,
+    "f1_efficiency": 0.632,
+    "f2_cost": 271200000.0,
+    "f3_flux": 721.4880952380952,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 89,
+    "f1_efficiency": 0.6371201035932682,
+    "f2_cost": 220224279.70182425,
+    "f3_flux": 785.8220249314686,
+    "helio_az_spacing": 1.856005179663412,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 90,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 91,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 92,
+    "f1_efficiency": 0.6439103325161447,
+    "f2_cost": 238557897.7935908,
+    "f3_flux": 756.3135890221046,
+    "helio_az_spacing": 2.1955166258072376,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 93,
+    "f1_efficiency": 0.6316783035181546,
+    "f2_cost": 261268580.50098258,
+    "f3_flux": 730.3804216916229,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.7440565493948466
+  },
+  {
+    "solution_id": 94,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 95,
+    "f1_efficiency": 0.6365281016149241,
+    "f2_cost": 218625874.36029503,
+    "f3_flux": 788.9146306590247,
+    "helio_az_spacing": 1.826405080746205,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 96,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 97,
+    "f1_efficiency": 0.6364474429399125,
+    "f2_cost": 303879213.59425247,
+    "f3_flux": 699.0084935440348,
+    "helio_az_spacing": 2.7435444526328903,
+    "helio_rad_spacing": 1.4893889335809907
+  },
+  {
+    "solution_id": 98,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 99,
+    "f1_efficiency": 0.632,
+    "f2_cost": 271200000.0,
+    "f3_flux": 721.4880952380952,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 100,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 101,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 102,
+    "f1_efficiency": 0.6488931722409557,
+    "f2_cost": 262090125.32347035,
+    "f3_flux": 729.5976714177825,
+    "helio_az_spacing": 2.254561139546713,
+    "helio_rad_spacing": 1.4005201656036708
+  },
+  {
+    "solution_id": 103,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 104,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 105,
+    "f1_efficiency": 0.632,
+    "f2_cost": 271200000.0,
+    "f3_flux": 721.4880952380952,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 106,
+    "f1_efficiency": 0.626544432181915,
+    "f2_cost": 344513384.8359571,
+    "f3_flux": 680.1842308376129,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.7818522606028344
+  },
+  {
+    "solution_id": 107,
+    "f1_efficiency": 0.628477865404979,
+    "f2_cost": 331328099.3100241,
+    "f3_flux": 685.499086787049,
+    "helio_az_spacing": 2.2621884620978507,
+    "helio_rad_spacing": 2.075945511768802
+  },
+  {
+    "solution_id": 108,
+    "f1_efficiency": 0.627518455892499,
+    "f2_cost": 337433542.9017435,
+    "f3_flux": 682.9579100113474,
+    "helio_az_spacing": 2.3843670917564386,
+    "helio_rad_spacing": 2.026473409079076
+  },
+  {
+    "solution_id": 109,
+    "f1_efficiency": 0.6371201035932682,
+    "f2_cost": 220224279.70182425,
+    "f3_flux": 785.8220249314686,
+    "helio_az_spacing": 1.856005179663412,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 110,
+    "f1_efficiency": 0.6206670324115587,
+    "f2_cost": 369198463.87145334,
+    "f3_flux": 671.746058955907,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.9777655862813757
+  },
+  {
+    "solution_id": 111,
+    "f1_efficiency": 0.632,
+    "f2_cost": 271200000.0,
+    "f3_flux": 721.4880952380952,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 112,
+    "f1_efficiency": 0.632,
+    "f2_cost": 271200000.0,
+    "f3_flux": 721.4880952380952,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 113,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 114,
+    "f1_efficiency": 0.626460897857756,
+    "f2_cost": 312139425.194991,
+    "f3_flux": 694.5370938608312,
+    "helio_az_spacing": 2.048916035015895,
+    "helio_rad_spacing": 2.0839140947520622
+  },
+  {
+    "solution_id": 115,
+    "f1_efficiency": 0.6343470808254282,
+    "f2_cost": 313740104.6975486,
+    "f3_flux": 693.7147190296836,
+    "helio_az_spacing": 2.5234625334926477,
+    "helio_rad_spacing": 1.7061222834906293
+  },
+  {
+    "solution_id": 116,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 117,
+    "f1_efficiency": 0.6379006880880793,
+    "f2_cost": 296817110.0300668,
+    "f3_flux": 703.1626093580418,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.4033103970640222
+  },
+  {
+    "solution_id": 118,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 119,
+    "f1_efficiency": 0.6409809319534983,
+    "f2_cost": 246951483.7255548,
+    "f3_flux": 745.6481014538172,
+    "helio_az_spacing": 2.3509534023250884,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 120,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 121,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 122,
+    "f1_efficiency": 0.6488931722409557,
+    "f2_cost": 262090125.32347035,
+    "f3_flux": 729.5976714177825,
+    "helio_az_spacing": 2.254561139546713,
+    "helio_rad_spacing": 1.4005201656036708
+  },
+  {
+    "solution_id": 123,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 124,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 125,
+    "f1_efficiency": 0.6336415726569539,
+    "f2_cost": 278094605.1592063,
+    "f3_flux": 715.9718698543857,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.254719088565129
+  },
+  {
+    "solution_id": 126,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 127,
+    "f1_efficiency": 0.632,
+    "f2_cost": 271200000.0,
+    "f3_flux": 721.4880952380952,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 128,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 129,
+    "f1_efficiency": 0.6246879196989158,
+    "f2_cost": 331305202.50963336,
+    "f3_flux": 685.5088931690079,
+    "helio_az_spacing": 2.134395984945791,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 130,
+    "f1_efficiency": 0.6422040615756066,
+    "f2_cost": 243649033.7458622,
+    "f3_flux": 749.671649430823,
+    "helio_az_spacing": 2.28979692121967,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 131,
+    "f1_efficiency": 0.6389496474398962,
+    "f2_cost": 225164048.0877199,
+    "f3_flux": 776.8587278424978,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2983215813298752
+  },
+  {
+    "solution_id": 132,
+    "f1_efficiency": 0.632,
+    "f2_cost": 271200000.0,
+    "f3_flux": 721.4880952380952,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 133,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 134,
+    "f1_efficiency": 0.632,
+    "f2_cost": 271200000.0,
+    "f3_flux": 721.4880952380952,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 135,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 136,
+    "f1_efficiency": 0.6371084311575937,
+    "f2_cost": 220192764.12550315,
+    "f3_flux": 785.8820478896429,
+    "helio_az_spacing": 1.855421557879688,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 137,
+    "f1_efficiency": 0.632,
+    "f2_cost": 271200000.0,
+    "f3_flux": 721.4880952380952,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 138,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 139,
+    "f1_efficiency": 0.6421582007137027,
+    "f2_cost": 247611862.5468188,
+    "f3_flux": 744.8685123648543,
+    "helio_az_spacing": 2.3231263201905605,
+    "helio_rad_spacing": 1.220690903917127
+  },
+  {
+    "solution_id": 140,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 141,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 142,
+    "f1_efficiency": 0.6488931722409557,
+    "f2_cost": 262090125.32347035,
+    "f3_flux": 729.5976714177825,
+    "helio_az_spacing": 2.254561139546713,
+    "helio_rad_spacing": 1.4005201656036708
+  },
+  {
+    "solution_id": 143,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 144,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 145,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 146,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 147,
+    "f1_efficiency": 0.632,
+    "f2_cost": 271200000.0,
+    "f3_flux": 721.4880952380952,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 148,
+    "f1_efficiency": 0.6229664979317213,
+    "f2_cost": 322784164.7620205,
+    "f3_flux": 689.3120979019458,
+    "helio_az_spacing": 2.048324896586066,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 149,
+    "f1_efficiency": 0.6184166324771699,
+    "f2_cost": 378650143.59588605,
+    "f3_flux": 668.9415788992594,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.0527789174276676
+  },
+  {
+    "solution_id": 150,
+    "f1_efficiency": 0.6277045132590191,
+    "f2_cost": 271997814.2006484,
+    "f3_flux": 720.8241778053043,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.8765162246993632
+  },
+  {
+    "solution_id": 151,
+    "f1_efficiency": 0.6226240532794991,
+    "f2_cost": 285715056.1453525,
+    "f3_flux": 710.4089462047734,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 2.0458648906833643
+  },
+  {
+    "solution_id": 152,
+    "f1_efficiency": 0.6422854320510963,
+    "f2_cost": 282912240.4396478,
+    "f3_flux": 712.3944937985492,
+    "helio_az_spacing": 2.5849481490396777,
+    "helio_rad_spacing": 1.4005201656036708
+  },
+  {
+    "solution_id": 153,
+    "f1_efficiency": 0.6140529948485925,
+    "f2_cost": 396977421.6359114,
+    "f3_flux": 664.0489495029668,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.198233505046916
+  },
+  {
+    "solution_id": 154,
+    "f1_efficiency": 0.6251807792725331,
+    "f2_cost": 342002961.6033754,
+    "f3_flux": 681.1474993931307,
+    "helio_az_spacing": 2.2456342725686027,
+    "helio_rad_spacing": 2.196884509203162
+  },
+  {
+    "solution_id": 155,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 156,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 157,
+    "f1_efficiency": 0.6206263639925443,
+    "f2_cost": 366521833.7406357,
+    "f3_flux": 672.5793353059402,
+    "helio_az_spacing": 2.5649227252701015,
+    "helio_rad_spacing": 2.1358393834017875
+  },
+  {
+    "solution_id": 158,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 159,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 160,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 161,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 162,
+    "f1_efficiency": 0.6488931722409557,
+    "f2_cost": 262090125.32347035,
+    "f3_flux": 729.5976714177825,
+    "helio_az_spacing": 2.254561139546713,
+    "helio_rad_spacing": 1.4005201656036708
+  },
+  {
+    "solution_id": 163,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 164,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 165,
+    "f1_efficiency": 0.632,
+    "f2_cost": 271200000.0,
+    "f3_flux": 721.4880952380952,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 166,
+    "f1_efficiency": 0.6434476776376841,
+    "f2_cost": 240291270.37825304,
+    "f3_flux": 753.9890932223251,
+    "helio_az_spacing": 2.2276161181157974,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 167,
+    "f1_efficiency": 0.618,
+    "f2_cost": 298200000.00000006,
+    "f3_flux": 702.3232323232323,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 168,
+    "f1_efficiency": 0.6208023548329829,
+    "f2_cost": 290633641.95094633,
+    "f3_flux": 707.0822352575586,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 2.1065881722339053
+  },
+  {
+    "solution_id": 169,
+    "f1_efficiency": 0.6330640223933774,
+    "f2_cost": 293101235.8400773,
+    "f3_flux": 705.4844798316111,
+    "helio_az_spacing": 2.0575403650507638,
+    "helio_rad_spacing": 1.8695594969212619
+  },
+  {
+    "solution_id": 170,
+    "f1_efficiency": 0.6199312830733237,
+    "f2_cost": 307759851.2129523,
+    "f3_flux": 696.8588365747527,
+    "helio_az_spacing": 1.8965641536661848,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 171,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 172,
+    "f1_efficiency": 0.6300760225736068,
+    "f2_cost": 301326851.05408657,
+    "f3_flux": 700.4725204172622,
+    "helio_az_spacing": 2.050904660516928,
+    "helio_rad_spacing": 1.9647356878910571
+  },
+  {
+    "solution_id": 173,
+    "f1_efficiency": 0.6379205351273138,
+    "f2_cost": 222385444.84374723,
+    "f3_flux": 781.7941290794516,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.264017837577126
+  },
+  {
+    "solution_id": 174,
+    "f1_efficiency": 0.6416836284109424,
+    "f2_cost": 245054203.2904557,
+    "f3_flux": 747.9336839288763,
+    "helio_az_spacing": 2.3158185794528827,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 175,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 176,
+    "f1_efficiency": 0.6227059417731198,
+    "f2_cost": 302664439.10493135,
+    "f3_flux": 699.7001818948113,
+    "helio_az_spacing": 1.9149378879875538,
+    "helio_rad_spacing": 2.11976053288771
+  },
+  {
+    "solution_id": 177,
+    "f1_efficiency": 0.6205432240063307,
+    "f2_cost": 310788958.83133674,
+    "f3_flux": 695.2416498163664,
+    "helio_az_spacing": 1.9271612003165324,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 178,
+    "f1_efficiency": 0.6348090414028273,
+    "f2_cost": 275930485.09699583,
+    "f3_flux": 717.6508080706822,
+    "helio_az_spacing": 2.749771485940405,
+    "helio_rad_spacing": 1.2601490373878474
+  },
+  {
+    "solution_id": 179,
+    "f1_efficiency": 0.6228052774622221,
+    "f2_cost": 298408423.9381378,
+    "f3_flux": 702.197852981603,
+    "helio_az_spacing": 1.8887984968512688,
+    "helio_rad_spacing": 2.099023082493442
+  },
+  {
+    "solution_id": 180,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 181,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 182,
+    "f1_efficiency": 0.6488931722409557,
+    "f2_cost": 262090125.32347035,
+    "f3_flux": 729.5976714177825,
+    "helio_az_spacing": 2.254561139546713,
+    "helio_rad_spacing": 1.4005201656036708
+  },
+  {
+    "solution_id": 183,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 184,
+    "f1_efficiency": 0.636,
+    "f2_cost": 217200000.0,
+    "f3_flux": 791.7592592592591,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 185,
+    "f1_efficiency": 0.6231233973965266,
+    "f2_cost": 352039182.8871938,
+    "f3_flux": 677.421424528536,
+    "helio_az_spacing": 2.343830130173674,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 186,
+    "f1_efficiency": 0.6404664688301457,
+    "f2_cost": 229259465.84139344,
+    "f3_flux": 770.0420419203111,
+    "helio_az_spacing": 2.023323441507286,
+    "helio_rad_spacing": 1.2
+  },
+  {
+    "solution_id": 187,
+    "f1_efficiency": 0.632723578278032,
+    "f2_cost": 279284890.1554374,
+    "f3_flux": 715.0678857946723,
+    "helio_az_spacing": 1.9537589544197205,
+    "helio_rad_spacing": 1.811720027012079
+  },
+  {
+    "solution_id": 188,
+    "f1_efficiency": 0.614,
+    "f2_cost": 397199999.99999994,
+    "f3_flux": 663.9935064935065,
+    "helio_az_spacing": 2.8,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 189,
+    "f1_efficiency": 0.6199312830733237,
+    "f2_cost": 307759851.2129523,
+    "f3_flux": 696.8588365747527,
+    "helio_az_spacing": 1.8965641536661848,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 190,
+    "f1_efficiency": 0.6239284831904881,
+    "f2_cost": 327545991.7929163,
+    "f3_flux": 687.1482502976131,
+    "helio_az_spacing": 2.096424159524407,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 191,
+    "f1_efficiency": 0.6205432240063307,
+    "f2_cost": 310788958.83133674,
+    "f3_flux": 695.2416498163664,
+    "helio_az_spacing": 1.9271612003165324,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 192,
+    "f1_efficiency": 0.6255765365479328,
+    "f2_cost": 310086901.28951186,
+    "f3_flux": 695.6118773585123,
+    "helio_az_spacing": 2.0182672993857373,
+    "helio_rad_spacing": 2.0929603146594014
+  },
+  {
+    "solution_id": 193,
+    "f1_efficiency": 0.6481947912231913,
+    "f2_cost": 257534013.9992401,
+    "f3_flux": 734.0565100507113,
+    "helio_az_spacing": 2.1460121971581154,
+    "helio_rad_spacing": 1.4241817573323654
+  },
+  {
+    "solution_id": 194,
+    "f1_efficiency": 0.6379205351273138,
+    "f2_cost": 222385444.84374723,
+    "f3_flux": 781.7941290794516,
+    "helio_az_spacing": 1.8,
+    "helio_rad_spacing": 1.264017837577126
+  },
+  {
+    "solution_id": 195,
+    "f1_efficiency": 0.6191969670185685,
+    "f2_cost": 304124986.7419144,
+    "f3_flux": 698.8696612470487,
+    "helio_az_spacing": 1.8598483509284287,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 196,
+    "f1_efficiency": 0.6216494386792221,
+    "f2_cost": 316264721.46214914,
+    "f3_flux": 692.4449195837183,
+    "helio_az_spacing": 1.982471933961102,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 197,
+    "f1_efficiency": 0.6313701203267705,
+    "f2_cost": 324725092.80750597,
+    "f3_flux": 688.4179574068255,
+    "helio_az_spacing": 2.749771485940405,
+    "helio_rad_spacing": 1.65448166514738
+  },
+  {
+    "solution_id": 198,
+    "f1_efficiency": 0.6216931293620298,
+    "f2_cost": 316480990.34204763,
+    "f3_flux": 692.337660842944,
+    "helio_az_spacing": 1.9846564681014913,
+    "helio_rad_spacing": 2.2
+  },
+  {
+    "solution_id": 199,
+    "f1_efficiency": 0.6317283259244553,
+    "f2_cost": 318895606.7679178,
+    "f3_flux": 691.1559700125306,
+    "helio_az_spacing": 2.1999941327471686,
+    "helio_rad_spacing": 2.0090518910162687
+  }
+]
